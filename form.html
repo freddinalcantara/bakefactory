@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>simple form</title>
+</head>
+<body>
+	
+
+	 <form id="formulario">
+  First name:<br>
+  <input type="text" name="name" id="name"><br>
+  Last name:<br>
+  <input type="text" name="lastname" id="lastname"><br><br>
+  <input type="submit" value="Submit" id="save">
+</form> 
+	
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		alert("hahahahh");
+
+		$('#save').click(function(){
+			
+			var name = $('#name').val();
+			var lastname = $('#lastname').val();
+
+			if(name == ""){
+				alert("empty value");
+				return false;
+
+			}
+
+
+		});
+
+		
+	});
+
+
+</script>
+<script type="text/javascript" href="js/jquery.js"></script>
+</body>
+</html>

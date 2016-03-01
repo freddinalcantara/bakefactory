@@ -1,0 +1,36 @@
+body {
+	background-color:   #fff;
+}
+
+nav.navbar {
+    background-color:   #00e5ff;
+}
+nav.navbar ul.nav li a{
+	color:  #fff;
+}
+.jumbotron{
+	background-color:   #fff;
+	margin-top: 100px;
+}
+}
+
+footer{
+	
+	background-color: #00e5ff;
+}
+.seguros{
+	background-color: #00e5ff;
+        
+}
+ #panel{
+ 	background-color: #00e5ff;
+ 	height: 100%;
+ 	 
+ 	
+
+ }
+ #padre{
+ 	background-color: #00e5ff;
+ 	
+
+ }
